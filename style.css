@@ -1,0 +1,71 @@
+/*Estilo de la página principal*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  background-image: url("https://www.okchicas.com/wp-content/uploads/2021/09/Repostera-japonesa-y-sus-dulces-creaciones-todas-preciosas.jpg");
+  background-size: cover;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 900px;
+}
+
+.menu {
+  background-color: rgb(169, 10, 169);
+  color: rgb(11, 6, 6);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.menuItem {
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: rgb(255, 202, 237);
+}
+
+.contenido {
+  background-color: rgba(228, 114, 243, 0.8);
+  padding: 50px;
+  max-width: 500px;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.nosotros {
+  background-color: rgba(222, 135, 183, 0.37);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.boton:hover {
+  background-color: #ff008c;
+}
+
+.texto {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.botone {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
