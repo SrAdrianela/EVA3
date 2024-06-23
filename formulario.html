@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea and Milk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-wedding-cupcake-png-image_6884577.png">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Registro/Formulario</h2>
+        <form id="registroFormulario" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Registrarse">
+            <div id="error" class="error" style="display: none;"></div>
+        </form>
+
+        <h2>Usuarios Registrados</h2>
+        <input type="text" id="searchInput" placeholder="Buscar usuario">
+        <div id="userList"></div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
